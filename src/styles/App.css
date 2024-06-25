@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family: Poppins;
+    src: url('../assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: PoppinsEBI;
+    src: url('../assets/fonts/Poppins-ExtraBoldItalic.ttf');
+}
+
+
+
+body {
+    color: #222;
+    font-family: "Poppins";
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    left: auto;
+    right: auto;
+}
+
+.numbers-container{
+    display: flex;
+    gap: 22px;
+}
+
+.title-input{
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input-field{
+    font-size: 32px;
+    font-weight: 900;
+    color: #858383;
+    width: 120px;
+    height: 42px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding-left: 18px;
+}
+
+.input-field:invalid{
+    border: 1px solid red;
+}
+
+button{
+    width: 100px;
+    justify-items: 100px;
+}
+
+.arrow-container{
+    display: flex;
+    padding-left: 600px;
+}
+
+.arrow{
+    margin-top: 12px;
+    background-color: hsl(259, 100%, 65%);
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    padding: 18px;
+}
+
+.calculations-container{
+    line-height: .30;
+}
+
+.dashes{
+    color: hsl(259, 100%, 65%);
+}
+
+.calculations-text{
+    font-family: "PoppinsEBI";
+    font-size: 64px;
+}
