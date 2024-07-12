@@ -108,3 +108,62 @@ button{
     pointer-events: none;
   }
   
+
+
+
+/* Media queries para responsive */
+
+@media (max-width: 1024px) {
+    .numbers-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-field {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .arrow-container {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .input-field {
+        font-size: 24px;
+        height: 36px;
+    }
+
+    .calculations-text {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .numbers-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .input-field {
+        font-size: 20px;
+        height: 32px;
+        width: 62px;
+    }
+
+    .calculations-container{
+        margin-top: 22px;
+    }
+
+    .calculations-text {
+        font-size: 42px;
+    }
+
+    .arrow {
+        width: 30px;
+        height: 30px;
+        padding: 8px;
+    }
+}
