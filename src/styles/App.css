@@ -83,3 +83,28 @@ button{
     font-family: "PoppinsEBI";
     font-size: 64px;
 }
+
+.day-container, .month-container, .year-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-error {
+    border-color: red;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .title-error {
+    color: red;
+  }
+  
+  .arrow-disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
